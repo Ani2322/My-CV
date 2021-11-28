@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Canvas CV</title>
+  </head>
+
+  <body onload="draw();">
+    <img src="abaut.jpg" class="img" id="about" alt="About">
+    <img src="education.jpg" class="img" id="edu" alt="Educatin">
+    <img src="languages.png" class="img" id="lang" alt="languages">
+    <img src="Skills.jpg" class="img" id="skills"alt="Skills">
+    <img src="contact.jpg" class="img" id="contact" alt="Contact">
+    <img src="picture.jpeg" class="img" id="photo" alt="Photo">
+  
+    <header class="header">
+      <div >
+        <canvas id="Header" width="1250" height="450"></canvas>
+       
+        <div class="nav" id="nav">
+          <nav>
+            <ul>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Education">Educatin</a></li>
+              <li><a href="#Languages">Languages</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="align">
+        <canvas class="information" id="About" width="1050" height="250"></canvas>
+      </div>
+
+      <div class="align">
+        <canvas class="information" id="Education" width="1050" height="250">  </canvas>
+      </div>
+
+      <div class="align">
+        <canvas class="information" id="Languages" width="1050" height="250"></canvas>
+      </div>
+
+      <div class="align">
+        <canvas class="information"  id="Skills" width="1050" height="250"></canvas>
+      </div>
+
+      <div class="align">
+        <canvas class="information" id="Contact" width="1050" height="250"></canvas>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Йоана Коева 2020 СКИ</p>
+      <canvas id="canvas" height="50px" width="50px"></canvas>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="java_Smile.js"></script>
+  </body> 
+</html>
